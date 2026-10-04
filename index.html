@@ -4,6 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Odin Project - Landing Page</title>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
+
+  <!-- Style -->
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
   <header class="header">
@@ -11,7 +19,7 @@
       Header Logo
     </a>
 
-    <nav class="navbar">
+    <nav>
       <ul class="navbar-menu">
         <li><a href="#information" class="navbar-link">Information</a></li>
         <li><a href="#quote" class="navbar-link">Quote</a></li>
@@ -25,15 +33,15 @@
     <!-- Hero -->
     <section id="hero" class="hero">
       <div class="hero-content">
-        <h1>This website is awesome</h1>
-        <p>
+        <h1 class="headline">This website is awesome</h1>
+        <p class="tagline">
           This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.
         </p>
         <button type="button" class="hero-cta btn-primary">Sign Up</button>
       </div>
 
       <div class="hero-image">
-        <img src="images/hero.webp" alt="Hero Image">
+        <img src="images/jameson-zimmer-QIUeEZr_0zY-unsplash.jpg" alt="Hero Image">
       </div>
     </section>
 
@@ -43,26 +51,26 @@
       <div class="info-wrapper">
         <article class="info-card">
           <figure>
-            <img src="images/info-image1.webp" alt="Ilustration of image 1">
-            <figcaption>Some subtext under an illustration</figcaption>
+            <img src="images/OIP (2).jpg" alt="Ilustration of image 1">
+            <figcaption>This is some subtext under an illustration or image</figcaption>
           </figure>
         </article>
         <article class="info-card">
           <figure>
-            <img src="images/info-image2.webp" alt="Ilustration of image 2">
-            <figcaption>Some subtext under an illustration</figcaption>
+            <img src="images/OIP (2).jpg" alt="Ilustration of image 2">
+            <figcaption>This is some subtext under an illustration or image</figcaption>
           </figure>
         </article>
         <article class="info-card">
           <figure>
-            <img src="images/info-image3.webp" alt="Ilustration of image 3">
-            <figcaption>Some subtext under an illustration</figcaption>
+            <img src="images/OIP (2).jpg" alt="Ilustration of image 3">
+            <figcaption>This is some subtext under an illustration or image</figcaption>
           </figure>
         </article>
         <article class="info-card">
           <figure>
-            <img src="images/info-image4.webp" alt="Ilustration of image 4">
-            <figcaption>Some subtext under an illustration</figcaption>
+            <img src="images/OIP (2).jpg" alt="Ilustration of image 4">
+            <figcaption>This is some subtext under an illustration or image</figcaption>
           </figure>
         </article>
       </div>
@@ -71,18 +79,20 @@
     <!-- Quote -->
     <section id="quote" class="quote">
       <blockquote>
-        This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it.
+        This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who Knows! All I know is that it looks nice.
       </blockquote>
       <cite>&ndash;Thor, God of Thunder</cite>
     </section>
 
     <!-- CTA -->
     <section id="cta" class="cta">
-      <div class="cta-content">
-        <h3>Call to action! It&apos;s time!</h3>
-        <p>Sign up for our product by clicking that button right over there!</p>
+      <div class="cta-wrapper">
+        <div class="cta-content">
+          <h3>Call to action! It&apos;s time!</h3>
+          <p>Sign up for our product by clicking that button right over there!</p>
+        </div>
+        <button type="button" class="cta-button btn-secondary">Sign Up</button>
       </div>
-      <button type="button" class="cta-button btn-primary">Sign Up</button>
     </section>
 
   </main>
